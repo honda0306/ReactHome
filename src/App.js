@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+
+import Hero from './components/hero.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        
+        <Hero title="Test Title" />
       </div>
     );
   }
