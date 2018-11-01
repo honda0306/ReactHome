@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Hero title="Test Title" />
+        <Hero heroStyle="hero landing" title="Test Title" />
       </div>
     );
   }

@@ -1,0 +1,22 @@
+.hero {
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 550px;
+}
+
+.landing {
+    background-image: url('./rain.jpg');
+}
+
+.landing {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
